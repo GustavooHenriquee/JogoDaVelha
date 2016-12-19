@@ -1,0 +1,15 @@
+/* 
+    Created on : 22/11/2016, 02:37:23
+    Author     : Windows
+*/
+p{
+	height: 300px;
+	width: 300px;
+	border:1px solid black;
+	display:inline;
+}
+img{
+	height: 300px;
+	width: 300px;
+	border:1px solid black;
+}

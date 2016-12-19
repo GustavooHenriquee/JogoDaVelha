@@ -1,0 +1,82 @@
+body{
+    box-sizing: border-box;
+}
+form{
+    text-align: center;
+    padding: 3px;
+    
+    
+}
+#formulario{
+    position: absolute;
+    border: 2px solid black;
+    width: 400px;
+    height: 225px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+#formulario h1{
+    color: blue;
+    font-size: 24px;
+    font-family: verdana;
+    }
+#formulario p{
+    display: block;
+    width: 100%;
+    margin-left: -2px;
+    color:white;
+}
+.alinhar{
+    padding: 3px;
+    margin-left: -20px;
+}
+#margemconfisenha{
+    margin-left: -40px;
+}
+#confsenha{
+    width: 100px;
+    background-color: white;
+}
+#senha{
+    width: 100px;
+}
+#login{
+    width: 205px;
+    
+}
+.alerta{
+    color: red;
+    font-family: verdana;
+    font-size: 10px;
+    
+}
+#boxlogin{
+    margin-left: 31px;
+}
+#boxsenha{
+    margin-left: 30px;
+}
+#boxbuttons{
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width:400px) {
+	.col-dp-0{width:0%}
+	.col-dp-1{width:8.33%}
+    .col-dp-2{width:16.66%}
+    .col-dp-3{width:25%}
+    .col-dp-4{width:33.33%}
+    .col-dp-5{width:41.66%}
+    .col-dp-6{width:50%}
+    .col-dp-7{width:58.33%}
+    .col-dp-8{width:66.66%}
+    .col-dp-9{width:74.99%}
+    .col-dp-10{width:83.32%}
+    .col-dp-11{width:91.65%}
+    .col-dp-12{width:100%}
+}
